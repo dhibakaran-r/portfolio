@@ -1,0 +1,27 @@
+[
+    {
+        "banner" : "/assets/images/slack.jpg",
+        "desc" : "Slack website clone using HTML, CSS, JS"
+    },
+    {
+        "banner" : "/assets/images/gallery.jpg",
+        "desc" : "Images gallery website build with Reactjs"
+    },
+    {
+        "banner" : "/assets/images/todo.jpg",
+        "desc" : "A Simple TODO app build with Reactjs"
+    },
+    {
+        "banner" : "/assets/images/e-com.jpg",
+        "desc" : "A Simple E-commerce website build with Reactjs"
+    }
+    ,
+    {
+        "banner" : "/assets/images/todo.jpg",
+        "desc" : "A Simple TODO app build with Reactjs"
+    },
+    {
+        "banner" : "/assets/images/e-com.jpg",
+        "desc" : "A Simple E-commerce website build with Reactjs"
+    }
+]

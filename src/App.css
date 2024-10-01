@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header ul li{
+    @apply px-2;
+    color: #fff;
+}
+
+header ul li:hover {
+    color: rgb(254, 122, 88);
+}
+
+.bg-color{
+    background: #27283D;
+}
+/* #FE7A58 */
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-yellow-50 w-full ;
+    background: rgba(125, 125, 125, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(125, 125, 125, 0.41); 
+}
+
+.mobile-nav li{
+    @apply w-full h-full py-2 text-[#fe7a58] flex justify-center items-center text-center;
+}
+
+.mobile-nav li:hover{
+   color: rgb(254, 122, 88);
+}
+
+.bar:hover{
+    color: #fe7a58;
+}
+
+.bg-intro{
+    background-color: #27283D;
+}
+
+.bg-lt{
+    background-color: #B2BAE1;
+}
+
+.about-block p{
+    line-height: 1.4444;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #252A5A;
+}
+
+.desc{
+    @apply absolute flex flex-col items-center opacity-0 duration-500 top-0 bottom-0 left-0 right-0 text-[#ff8746];
+}
+.desc:hover{
+    opacity: 1;
+    background: rgba(125, 125, 125, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(125, 125, 125, 0.41); 
+}
+.bg-project{
+    background-color: #1e272e;
+}
+
+.btn{
+    @apply md:font-bold text-xl duration-300 border border-[#ffffff] bg-[#3b1050]  p-1 md:p-4 md:m-2 text-white opacity-100 flex items-center justify-center md:w-1/2; 
+}
+
+.btn:hover{
+    box-shadow: 1px 0px 25px 8px #c766dd inset;
+}
+
+.btn-2{
+    @apply duration-300 border  border-[#621473] rounded-full bg-[#DD6356] py-1 px-3 text-[1rem] text-white opacity-100 flex items-center justify-center; 
+  
+
+}
+
+.btn-2:hover{
+    box-shadow: 1px 0px 25px 8px #621473 inset;
+}
+
