@@ -73,7 +73,7 @@ export default function Projects(){
             </div>
 
             <div className="img w-full pt-5">
-                <div className="flex flex-col md:flex-row px-10 gap-5 flex-wrap justify-center items-center">
+                <div className="flex flex-col md:flex-row px-1 md:px-10 gap-5 flex-wrap justify-center items-center">
 
                     {
                         datas.map((descData, index)=>{
@@ -81,7 +81,7 @@ export default function Projects(){
                             return(
                                 
                                 <div className="relative" key={index}>
-                                    <img className='w-[310px] h-[200px] md:w-[425px] md:h-[350px]' src={descData.banner} alt="project image" />
+                                    <img className='w-[360px] h-[300px] md:w-[425px] md:h-[350px]' src={descData.banner} alt="project image" />
                                     <div className="desc"> 
                                         <p className="text-center p-2  md:p-5 text-xl md:text-2xl mt-5">{descData.desc}</p>
                                         <a href={descData.link} target='_blank' className='btn'>view project <MdOutlineArrowOutward className='text-white ms-2 font-bold text-2xl'/></a>
