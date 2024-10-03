@@ -27,7 +27,7 @@ export default function Projects(){
         {
             "banner" : img3,
             "desc" : "A simple ToDo application built entirely with React functional components, designed to enhance my understanding of core React concepts and explore the use of hooks.",
-            "link" : "https://dhibakaran-r.github.io/simple-todo/"
+            "link" : "https://dhibakaran-r.github.io/react-todo/"
         },
         // {
         //     "banner" : img4,
