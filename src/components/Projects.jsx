@@ -81,7 +81,7 @@ export default function Projects(){
                             return(
                                 
                                 <div className="relative" key={index}>
-                                    <img className='w-[360px] h-[300px] md:w-[425px] md:h-[350px]' src={descData.banner} alt="project image" />
+                                    <img className='w-[360px] h-[300px] lg:w-[390px] lg:h-[340px] md:w-[425px] md:h-[350px]' src={descData.banner} alt="project image" />
                                     <div className="desc"> 
                                         <p className="text-center p-2  md:p-5 text-xl md:text-2xl mt-5">{descData.desc}</p>
                                         <a href={descData.link} target='_blank' className='btn'>view project <MdOutlineArrowOutward className='text-white ms-2 font-bold text-2xl'/></a>
