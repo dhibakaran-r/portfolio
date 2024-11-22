@@ -3,11 +3,11 @@ import pimg from '../assets/images/devs.png'
 import projectDatas from '../components/dataset.json'
 import { MdOutlineArrowOutward } from "react-icons/md";
 // import axios from 'axios';
-import img1 from '../assets/images/slack.jpg';
-import img2 from '../assets/images/gallery.jpg';
-import img3 from '../assets/images/todo.jpg';
-import img4 from '../assets/images/e-com.jpg';
-import img5 from '../assets/images/qsthumb.png'
+import img1 from '../assets/images/qsthumb.png'
+import img2 from '../assets/images/skillhub.jpeg';
+import img3 from '../assets/images/slack.jpg';
+import img4 from '../assets/images/todo.jpg';
+// import img2 from '../assets/images/gallery.jpg';
 
 export default function Projects(){
 
@@ -16,24 +16,24 @@ export default function Projects(){
     const datas = [
         {
             "banner" : img1,
+            "desc" : "QuizSnap is a dynamic MCQ quiz platform built using React, designed to showcase my front-end development skills with a focus on user-friendly interfaces and interactive assessments.",
+            "link" : "https://quizsnap.vercel.app/"
+        },
+        {
+            "banner" : img2,
+            "desc" : "A Simple course website build with Reactjs, Tailwind and localstorage",
+            "link" : "https://skillhub-iota.vercel.app/"
+        },
+        {
+            "banner" : img3,
             "desc" : "A static Slack-inspired website, my first project built with HTML, CSS, and JavaScript to enhance my foundational web development skills.",
             "link" : "https://dhibakaran-r.github.io/my-slack-clone/"
         },
         {
-            "banner" : img5,
-            "desc" : "QuizSnap is a dynamic MCQ quiz platform built using React, designed to showcase my front-end development skills with a focus on user-friendly interfaces and interactive assessments.",
-            "link" : "https://dhibakaran-r.github.io/quizsnap/"
-        },
-        {
-            "banner" : img3,
+            "banner" : img4,
             "desc" : "A simple ToDo application built entirely with React functional components, designed to enhance my understanding of core React concepts and explore the use of hooks.",
             "link" : "https://dhibakaran-r.github.io/react-todo/"
         },
-        // {
-        //     "banner" : img4,
-        //     "desc" : "A Simple E-commerce website build with Reactjs",
-        //     "link" : "#"
-        // },
         // {
         //     "banner" : img1,
         //     "desc" : "Slack website clone using HTML, CSS, JS"
