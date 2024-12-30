@@ -29,7 +29,7 @@ export default function Header() {
     ]
 
   return (
-    <header className="flex justify-between px-5 py-2 z-10 fixed w-full bg-color ">
+    <header className="flex justify-between px-5 py-4 z-10 fixed w-full bg-color ">
         <a className="font-bold text-danger" href="#">
             {/* <p className="text-gray-700">Dhibakaran R</p> */}
             <img src={logo} className="logo" alt="logo" />
@@ -37,7 +37,7 @@ export default function Header() {
 
         <nav className="hidden md:block">
 
-            <ul className="flex">
+            <ul className="flex gap-8">
                 
                 {menus.map((items) => {
                     return (

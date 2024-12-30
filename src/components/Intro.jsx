@@ -26,7 +26,7 @@ function Intro() {
       <div className="md:w-1/2 flex flex-col justify-center">
       
         <h1 className='text-white text-3xl md:text-6xl'>Hi, <br/> I'm <span className='text-orange-600'>Raju </span>Dhibakaran,
-          <p className='text-xl md:text-3xl'>I'm a web developer</p>   
+          <p className='mt-2 text-gray-300 text-xl'>Frontend Developer | Web Developer</p>   
         </h1>
 
         <div className='flex py-10'>
